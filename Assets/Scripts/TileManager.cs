@@ -35,6 +35,15 @@ public class TileManager : MonoBehaviour
         CurrentPlayer = Owner.Sword;
     }
 
+    /* private void Update()
+    {
+        for (int tileNum = 0; tileNum < 9; tileNum++)
+        {
+            Tiles[tileNum].UpdateTileSpriteContinuously();
+        }
+    }
+    */
+
     public void ChangePlayer()
     {
         if (CheckForWinner())
@@ -92,5 +101,28 @@ public class TileManager : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void OnResetClick()
+    {
+        for (int tileNum = 0; tileNum < 9; tileNum++)
+        {
+            Tiles[tileNum].ResetTile(tileNum + 1);
+        }
+
+        resetButton.SetActive(false);
+        quitButton.SetActive(false);
+        won = false;
+        CurrentPlayer = Owner.Sword;
+        Debug.Log("The board has been reset. Sword player start!");
+    }
+
+    public void OnQuitClick()
+    {
+        resetButton.SetActive(false);
+        quitButton.SetActive(false);
+        Debug.Log("The user has quit the application.");
+        CurrentPlayer = Owner.None;
+        Application.Quit();
     }
 }
