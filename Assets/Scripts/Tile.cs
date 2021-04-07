@@ -1,7 +1,17 @@
+/*
+Name: Marc Domingo
+Student ID: 2346778
+Chapman Email: mdomingo@chapman.edu
+Course Number and Section: 236-03
+Assignment: Project 6
+This is my own work, and I did not cheat on this assignment.
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// The purpose of this script is to represent the concept of a tile in a Tic-Tac-Toe game, and contains functions to represent a user claiming ownership of said tile.
 public class Tile : MonoBehaviour
 {
     public TileManager tileManager;

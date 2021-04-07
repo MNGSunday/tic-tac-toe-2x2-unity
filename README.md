@@ -1,11 +1,26 @@
-# Simple Tic-Tac-Toe 2x2 in Unity
- A simple 2x2 tic-tac-toe example in Unity
-
- ## Usage
- This example is intended as an introduction to a project for a class of students. It is typically paired with a lecture explaining the implementation and decisions made around the code.
+# mDomingo_Project6
  
- The intention is to set students up to take this project and expand upon it to create a 3x3 tic-tac-toe game with art, a scoreboard for the two players, and a reset function every time someone wins.
+1.) Identifying Information
+   a)   Name: Marc Domingo
+   b)   Student ID: 2346778
+   c)   Chapman Email: mdomingo@chapman.edu
+   d)   Course Number and Section: 236-03
+   e)   Assignment: Project 6: Swords and Shields
+   f)   This is my own work, and I did not cheat on this assignment.
 
- ## Implementation Notes
- * **This is a simple introductory project.** It's as much about teaching students how to work with sprite objects, conceptualize a game manager object, and handling a simple two player concept.
- * In the case of the _if_ statement, Occam's Razor is applied for simplicities sake. Sometimes the time to write the "slick" function is best spent elsewhere.
+2.) List of source files submitted
+   a. Tile.cs
+   b. TileManager.cs
+
+3.) Description of any known compile/runtime errors, or bugs
+   a. N/A
+
+4.) References used to complete the assignment
+   a. Christopher Boyd
+   b. Original Tile.cs and TileManager.cs from Christopher Boyd
+   c. Sword and Shield Sprites from: https://cheekyinkling.itch.io/shikashis-fantasy-icons-pack
+
+5.) Instructions for running the assignment
+   1.) Load the assignment into Unity version 2019.4.22f1
+   2.) Click the play button
+   3.) Click on any of the 9 tiles to play a version of tic-tac-toe with Swords and Shields.
